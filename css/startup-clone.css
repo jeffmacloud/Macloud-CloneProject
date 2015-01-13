@@ -51,5 +51,47 @@ body {
 	background-color: lightgray;
 }
 div, header {
-	border: 1px solid chocolate;
+	border: 1px solid chocolate; 
+}
+
+/* end browser reset */
+
+body {
+	font-family: "Roboto", sans-serif;
+}
+
+.navlist {
+	list-style: none;
+	margin: 0;
+	margin-right: 2rem;
+	margin-top: 1.8rem;
+	width: 47rem;
+	float: right;
+}
+
+.navlist .navlinks:first-child {
+	font-weight: bold;
+	color: #4c5058;
+}
+
+.navlinks{
+	display: inline;
+	padding: 1.4%;
+	letter-spacing: .02em;
+	color: #838994;
+	font-size: 1.04em;
+}
+
+.topnav {
+	height: 4.375rem;
+	background: #ffffff;
+	border-top, border-right, border-left: none;
+	border-bottom: 1px solid #ddd;
+	min-width: 69rem
+	padding: 0 0.938rem;
+	margin: 0px auto;
+}
+.navlogo {
+	height: 60%;
+	margin: 1% 0 0 21.8%;
 }
