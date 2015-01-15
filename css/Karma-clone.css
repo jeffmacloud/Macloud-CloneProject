@@ -1,9 +1,169 @@
 /* Navigation Section */
+/* Paul Irish Box-Sizing: Border-Box reset - apply a natural box layout model to all elements, but allowing components to change http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+/* End of Reset */
+
+
+/* Start of Custom Styles */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    border: 0 none;
+    box-sizing: border-box;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+	line-height: 1;
+	font-family: "Roboto", sans-serif;
+}
+
+ol, ul {
+	list-style: outside none none;
+}
+
+/* Navigation Section */
 .top-navigation {
-	background-color: #fff;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
 }
 .top-navigation > .content {
-	width: 970px
-	height: 70px
+    height: 4.375rem;
+}
+.top-navigation .logo {
+    height: 3rem;
+    margin-top: .6rem;
+}
+.top-navigation .links {
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    color: #838994;
+    font-size: 1.04rem;
+    margin-top: 1.7rem;
+    html {
+    	-webkit-font-smoothing: antialiased;
+    }
+}
+.top-navigation .links li {
+    display: inline-block;
+    margin-left: 1.563rem;
+}
+.top-navigation .links .active {
+    color: #4c5058;
+    font-weight: 500;
+}
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #333333;
+}
+
+
+/* Introduction Section */
+.introduction {
+	background-image: url("../images/first-background.jpg");
+	background-color: #ddd;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+	background-size: cover;
+    height: 45.938rem;
+    overflow: auto;
+}
+
+
+.content {
+	width: 60%;
+	min-width: 37.5rem;
+	padding: 0 0.938rem;
 	margin: 0 auto;
+}
+
+:focus {
+	outline: medium none;
+	}
+
+.introduction h1, h2 {
+	font-weight: 300;
+	text-align: center;
+	color: white;
+}
+
+.introduction h1 {
+	font-size: 3.125rem;
+	margin-top: 17.5rem;
+}
+.introduction h2 {
+	font-size: 1.563rem;
+	margin-top: 1.25rem;
+}
+
+.introduction .buttons {
+	color: white;
+	margin-top: 1.563rem;
+	text-align: center;
+}
+
+button {
+	background-color: #f15a29;
+	border-color: #f15a29;
+	border-radius: 4px;
+	border-style: none;
+	color: white;
+	font-size: 1.125rem;
+	padding: 1rem 1.5rem;
+	text-shadow: none;
+	width: 9.688rem;
+}
+
+button:hover {
+	background-color: #d9400e;
+	border-color: #cf3d0e;
+	cursor: pointer;
 }
