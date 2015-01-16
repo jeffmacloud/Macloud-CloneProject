@@ -188,11 +188,11 @@ button:hover {
 	width: 22em;
 }
 .feature-type {
-	margin-left: 17em;
+	margin-left: 14em;
 	padding: 0;
 	list-style-type: none;
 	width: 100%;
-	height: 40rem;
+	height: 23rem;
 
 }
 .feature-list {
@@ -223,4 +223,55 @@ button:hover {
 	background-position: center top;
 	background-size: 8rem 13rem;
 	padding-top: 13rem;
+}
+
+/* footer section */
+
+.social {
+	height: 20rem;
+	width: 65rem;
+	border-top: #e4e4e4 solid thin;
+	margin-left: 14rem;
+	padding-top: 1.7rem;
+	text-align: center;
+
+}
+.social h3 {
+	color: black;
+}
+.social-links {
+	height: 6rem;
+	margin-left: 25.5rem;
+	padding: 1rem;
+	list-style-type:none;
+	width: 100%;
+}
+.twitter, .facebook, .instagram {
+	display: inline;
+	float: left;
+	width: 3rem;
+	height: 3rem;
+	margin: .5rem;
+}
+.twitter {
+	background: url("../images/twitter-link.png") no-repeat;
+	background-position: center top;
+	background-size: 2.5rem 2.5rem;
+	padding-top: 1rem;
+}
+.facebook {
+	background: url("../images/facebook-link.png") no-repeat;
+	background-position: center top;
+	background-size: 2.5rem 2.5rem;
+	padding-top: 1rem;
+}
+.instagram {
+	background: url("../images/instagram-link.png") no-repeat;
+	background-position: center top;
+	background-size: 2.5rem 2.5rem;
+	padding-top: 1rem;
+}
+.copyright {
+	color: #bdbdbd;
+	font-weight: 100;
 }
